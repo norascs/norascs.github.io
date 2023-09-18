@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.container {
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.number-display {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.instruction {
+    font-size: 18px;
+    margin-bottom: 20px;
+}

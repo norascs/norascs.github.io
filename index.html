@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3-back Task with Video</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="instruction" id="instruction-text">
+            Watch the video and press 'p' for change or 'q' for no change.
+        </div>
+        
+        <video width="320" height="240" id="video" controls>
+            <source src="nope.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <div class="number-display">
+            <span id="current-number"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
